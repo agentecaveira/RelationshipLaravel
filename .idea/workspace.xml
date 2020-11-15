@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c822881-5381-4e7b-b2ee-75cbd5e44321" name="Default Changelist" comment="">
+    <list default="true" id="2c822881-5381-4e7b-b2ee-75cbd5e44321" name="Default Changelist" comment="Has Many Through">
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_15_11_2020_13_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/manyToManyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Company.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_15_174608_create_companies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_15_174739_create_company_city_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OneToManyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OneToManyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Country.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,8 +184,17 @@
       <workItem from="1605307034711" duration="2618000" />
       <workItem from="1605310629214" duration="287000" />
       <workItem from="1605310966224" duration="324000" />
-      <workItem from="1605391906728" duration="4125000" />
+      <workItem from="1605391906728" duration="6434000" />
+      <workItem from="1605462176611" duration="1770000" />
     </task>
+    <task id="LOCAL-00001" summary="Has Many Through">
+      <created>1605396814262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605396814262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +210,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Has Many Through" />
+    <option name="LAST_COMMIT_MESSAGE" value="Has Many Through" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="175" key="#CLI_Interpreters" timestamp="1605393781351">
@@ -205,6 +225,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="355" y="163" key="#PHP/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605393788671" />
+    <state x="240" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605398306151">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="240" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605398306151" />
     <state x="936" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605395848320">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
