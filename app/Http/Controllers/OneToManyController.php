@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\City;
 use App\Models\Country;
 use App\Models\State;
 use Illuminate\Http\Request;
@@ -82,5 +83,15 @@ class OneToManyController extends Controller
         }
         $totalCities = count($cities);
         echo "Total de cidades do $country->name é $totalCities";
+    }
+
+    public function hasManyThroughInverse()
+    {
+        $city = City::with('state.country')->find(1);
+        echo $city->name.'<br>';
+        $state = $city->state;
+        echo $state->name.'<br>';
+        $country = $city->state->country;
+        echo $country->name.'<br>';
     }
 }

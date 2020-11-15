@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c822881-5381-4e7b-b2ee-75cbd5e44321" name="Default Changelist" comment="Many To Many">
+    <list default="true" id="2c822881-5381-4e7b-b2ee-75cbd5e44321" name="Default Changelist" comment="polymorphic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/manyToManyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/manyToManyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OneToManyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OneToManyController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Country.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/State.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/State.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +184,7 @@
       <workItem from="1605310629214" duration="287000" />
       <workItem from="1605310966224" duration="324000" />
       <workItem from="1605391906728" duration="6434000" />
-      <workItem from="1605462176611" duration="6910000" />
+      <workItem from="1605462176611" duration="8471000" />
     </task>
     <task id="LOCAL-00001" summary="Has Many Through">
       <created>1605396814262</created>
@@ -203,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605464037015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="polymorphic">
+      <created>1605470399922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605470399922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="polymorphic">
+      <created>1605470464334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605470464334</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Has Many Through" />
     <MESSAGE value="Many To Many" />
-    <option name="LAST_COMMIT_MESSAGE" value="Many To Many" />
+    <MESSAGE value="polymorphic" />
+    <option name="LAST_COMMIT_MESSAGE" value="polymorphic" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="175" key="#CLI_Interpreters" timestamp="1605393781351">
@@ -235,10 +247,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="355" y="163" key="#PHP/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605393788671" />
-    <state x="240" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605464046227">
+    <state x="240" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605470535326">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="240" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605464046227" />
+    <state x="240" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605470535326" />
     <state x="936" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605469640572">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

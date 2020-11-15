@@ -34,6 +34,7 @@ Route::get('one-to-many-insert', [\App\Http\Controllers\OneToManyController::cla
  */
 
 Route::get('has-many-through', [\App\Http\Controllers\OneToManyController::class, 'hasManyThrough']);
+Route::get('has-many-through-inverse', [\App\Http\Controllers\OneToManyController::class, 'hasManyThroughInverse']);
 
 /**
  * Many to many
