@@ -39,6 +39,14 @@ Route::get('has-many-through', [\App\Http\Controllers\OneToManyController::class
  * Many to many
  */
 Route::get('many-to-many', [\App\Http\Controllers\manyToManyController::class, 'manyToMany']);
+Route::get('many-to-many-inverse', [\App\Http\Controllers\manyToManyController::class, 'manyToManyInverse']);
+Route::get('many-to-many-insert', [\App\Http\Controllers\manyToManyController::class, 'manyToManyInsert']);
+
+/**
+ * Relation Polymorphic
+ */
+Route::get('polymorphic', [\App\Http\Controllers\PolymorphicController::class, 'polymorphic']);
+Route::get('polymorphic-insert', [\App\Http\Controllers\PolymorphicController::class, 'polymorphicInsert']);
 
 Route::get('/', function () {
     return view('welcome');

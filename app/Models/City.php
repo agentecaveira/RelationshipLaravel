@@ -11,4 +11,10 @@ class City extends Model
     {
         return $this->belongsToMany(Company::class, 'company_city');
     }
+
+    public function comments()
+    {
+        //Polymorphic -> Passar a classe que se relaciona, juntamente com o métóo que foi implementado na classe
+        return $this->morphMany(Comment::class, 'commentable');
+    }
 }

@@ -19,16 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c822881-5381-4e7b-b2ee-75cbd5e44321" name="Default Changelist" comment="Has Many Through">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_15_11_2020_13_42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/manyToManyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_15_174608_create_companies_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_15_174739_create_company_city_table.php" afterDir="false" />
+    <list default="true" id="2c822881-5381-4e7b-b2ee-75cbd5e44321" name="Default Changelist" comment="Many To Many">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/manyToManyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/manyToManyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Company.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Country.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/State.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/State.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +163,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\RelationshipLaravel\app\Models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -185,7 +187,7 @@
       <workItem from="1605310629214" duration="287000" />
       <workItem from="1605310966224" duration="324000" />
       <workItem from="1605391906728" duration="6434000" />
-      <workItem from="1605462176611" duration="1770000" />
+      <workItem from="1605462176611" duration="6910000" />
     </task>
     <task id="LOCAL-00001" summary="Has Many Through">
       <created>1605396814262</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605396814262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Many To Many">
+      <created>1605464037015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605464037015</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Has Many Through" />
-    <option name="LAST_COMMIT_MESSAGE" value="Has Many Through" />
+    <MESSAGE value="Many To Many" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many To Many" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="175" key="#CLI_Interpreters" timestamp="1605393781351">
@@ -225,13 +235,13 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="355" y="163" key="#PHP/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605393788671" />
-    <state x="240" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605398306151">
+    <state x="240" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605464046227">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="240" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605398306151" />
-    <state x="936" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605395848320">
+    <state x="240" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605464046227" />
+    <state x="936" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605469640572">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="936" y="240" width="672" height="677" key="run.anything.popup/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605395848320" />
+    <state x="936" y="240" width="672" height="677" key="run.anything.popup/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1605469640572" />
   </component>
 </project>
